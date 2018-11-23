@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+
 class Tesouro(models.Model):
     nome = models.CharField(max_length=45)
     quantidade = models.IntegerField()
